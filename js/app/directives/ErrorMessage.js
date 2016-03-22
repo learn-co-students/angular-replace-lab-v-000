@@ -6,5 +6,5 @@ function ErrorMessage() {
 }
 
 angular
-  .app('app', [])
+  .module('app')
   .directive('errorMessage', ErrorMessage);

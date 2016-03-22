@@ -6,5 +6,5 @@ function SuccessMessage() {
 }
 
 angular
-  .app('app', [])
+  .module('app')
   .directive('successMessage', SuccessMessage);
