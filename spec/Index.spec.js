@@ -12,6 +12,6 @@ describe('Directive Test', function() {
 	it('should render the error message and replace the directive', function() {
 		expect(element(by.css('.error')).getText()).toBe('Oh no, an error occurred!');
 
-		expect(element(by.css('success-message')).isPresent()).toEqual(false);
+		expect(element(by.css('error-message')).isPresent()).toEqual(false);
 	});
 });
