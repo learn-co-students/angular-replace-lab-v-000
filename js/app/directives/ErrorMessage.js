@@ -7,4 +7,4 @@ function ErrorMessage() {
 
 angular
     .module('app')
-    .directive('errorMessage', OurDirective);
+    .directive('errorMessage', ErrorMessage);
