@@ -1,6 +1,6 @@
 function ErrorMessage() {
   return {
-    replace: false,
+    replace: true,
     template: '<div>Oh no, an error occurred!</div>'
   };
 }
